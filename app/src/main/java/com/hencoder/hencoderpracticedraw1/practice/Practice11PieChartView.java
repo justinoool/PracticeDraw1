@@ -1,4 +1,4 @@
-package com.hencoder.hencoderpracticedraw1.practice;
+﻿package com.hencoder.hencoderpracticedraw1.practice;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -54,6 +54,8 @@ public class Practice11PieChartView extends View {
           path.lineTo(80,30);
           path.lineTo(50,30);
           canvas.drawPath(path,paint);
+
+
           paint.setColor(Color.WHITE);
           paint.setTextSize(15);
 
